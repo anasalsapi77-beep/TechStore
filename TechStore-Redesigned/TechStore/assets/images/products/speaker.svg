@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Bluetooth speaker">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e2a39"/><stop offset="1" stop-color="#0a101a"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f7fb"/><stop offset=".25" stop-color="#8996aa"/><stop offset=".58" stop-color="#202b3b"/><stop offset="1" stop-color="#bbc6d6"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6ee7f5"/><stop offset=".55" stop-color="#927fff"/><stop offset="1" stop-color="#101a31"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#6ee7f5" stop-opacity=".42"/><stop offset="1" stop-color="#6ee7f5" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="900" height="650" rx="34" fill="url(#bg)"/>
+<circle cx="700" cy="150" r="255" fill="url(#glow)"/>
+<circle cx="180" cy="530" r="250" fill="url(#glow)" opacity=".5"/>
+<path d="M0 490 C190 410 270 640 470 530 S750 410 900 500 V650 H0Z" fill="#fff" opacity=".035"/>
+<ellipse cx="455" cy="545" rx="255" ry="36" fill="#02050b" opacity=".55" filter="url(#shadow)"/>
+<g transform="translate(0 -4) rotate(-7 450 330)"><rect x="290" y="110" width="320" height="440" rx="110" fill="url(#metal)"/><rect x="308" y="128" width="284" height="404" rx="94" fill="#111b2a"/><circle cx="450" cy="315" r="118" fill="url(#screen)" stroke="#d8e4ef" stroke-opacity=".3" stroke-width="9"/><circle cx="450" cy="315" r="82" fill="none" stroke="#d9f7ff" stroke-opacity=".55" stroke-width="3"/><circle cx="450" cy="315" r="25" fill="#b7eaf1" opacity=".7"/><path d="M380 457 H520" stroke="#fff" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/></g>
+<circle cx="760" cy="490" r="4" fill="#fff" opacity=".35"/><circle cx="155" cy="155" r="3" fill="#fff" opacity=".45"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="4K gaming monitor">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#152238"/><stop offset="1" stop-color="#080f1d"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f7fb"/><stop offset=".25" stop-color="#8996aa"/><stop offset=".58" stop-color="#202b3b"/><stop offset="1" stop-color="#bbc6d6"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#69e9f2"/><stop offset=".55" stop-color="#947cff"/><stop offset="1" stop-color="#101a31"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#69e9f2" stop-opacity=".42"/><stop offset="1" stop-color="#69e9f2" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="900" height="650" rx="34" fill="url(#bg)"/>
+<circle cx="700" cy="150" r="255" fill="url(#glow)"/>
+<circle cx="180" cy="530" r="250" fill="url(#glow)" opacity=".5"/>
+<path d="M0 490 C190 410 270 640 470 530 S750 410 900 500 V650 H0Z" fill="#fff" opacity=".035"/>
+<ellipse cx="455" cy="545" rx="255" ry="36" fill="#02050b" opacity=".55" filter="url(#shadow)"/>
+<g transform="translate(0 -5)"><rect x="190" y="95" width="520" height="340" rx="22" fill="url(#metal)"/><rect x="206" y="111" width="488" height="308" rx="12" fill="#050a14"/><rect x="218" y="123" width="464" height="284" rx="8" fill="url(#screen)"/><path d="M218 326 Q330 180 450 280 T682 205 V407 H218Z" fill="#5ee9f6" opacity=".24"/><path d="M218 365 Q360 275 480 342 T682 285 V407 H218Z" fill="#a58bff" opacity=".3"/><path d="M450 435 V505 M365 512 H535" stroke="url(#metal)" stroke-width="26" stroke-linecap="round"/><circle cx="450" cy="399" r="3" fill="#dff"/></g>
+<circle cx="760" cy="490" r="4" fill="#fff" opacity=".35"/><circle cx="155" cy="155" r="3" fill="#fff" opacity=".45"/>
+</svg>

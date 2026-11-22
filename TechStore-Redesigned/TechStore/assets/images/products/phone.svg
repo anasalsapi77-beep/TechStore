@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Smartphone">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172033"/><stop offset="1" stop-color="#080e1b"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f7fb"/><stop offset=".25" stop-color="#8996aa"/><stop offset=".58" stop-color="#202b3b"/><stop offset="1" stop-color="#bbc6d6"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#64e5ff"/><stop offset=".55" stop-color="#9a78ff"/><stop offset="1" stop-color="#101a31"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#64e5ff" stop-opacity=".42"/><stop offset="1" stop-color="#64e5ff" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="900" height="650" rx="34" fill="url(#bg)"/>
+<circle cx="700" cy="150" r="255" fill="url(#glow)"/>
+<circle cx="180" cy="530" r="250" fill="url(#glow)" opacity=".5"/>
+<path d="M0 490 C190 410 270 640 470 530 S750 410 900 500 V650 H0Z" fill="#fff" opacity=".035"/>
+<ellipse cx="455" cy="545" rx="255" ry="36" fill="#02050b" opacity=".55" filter="url(#shadow)"/>
+<g transform="translate(0 -4) rotate(-8 450 330)"><rect x="332" y="65" width="238" height="490" rx="42" fill="url(#metal)"/><rect x="344" y="78" width="214" height="464" rx="34" fill="#050912"/><rect x="354" y="91" width="194" height="438" rx="27" fill="url(#screen)"/><path d="M354 390 Q430 190 548 260 V529 H354Z" fill="#6be8ff" opacity=".26"/><path d="M354 440 Q450 300 548 350 V529 H354Z" fill="#bc81ff" opacity=".25"/><circle cx="451" cy="470" r="70" fill="none" stroke="#fff" stroke-opacity=".13" stroke-width="2"/><rect x="414" y="101" width="78" height="18" rx="9" fill="#03060c"/></g>
+<circle cx="760" cy="490" r="4" fill="#fff" opacity=".35"/><circle cx="155" cy="155" r="3" fill="#fff" opacity=".45"/>
+</svg>

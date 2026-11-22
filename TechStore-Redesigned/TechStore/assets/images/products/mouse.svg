@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Precision mouse">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182535"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f7fb"/><stop offset=".25" stop-color="#8996aa"/><stop offset=".58" stop-color="#202b3b"/><stop offset="1" stop-color="#bbc6d6"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#62e8f2"/><stop offset=".55" stop-color="#9b82ff"/><stop offset="1" stop-color="#101a31"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#62e8f2" stop-opacity=".42"/><stop offset="1" stop-color="#62e8f2" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="900" height="650" rx="34" fill="url(#bg)"/>
+<circle cx="700" cy="150" r="255" fill="url(#glow)"/>
+<circle cx="180" cy="530" r="250" fill="url(#glow)" opacity=".5"/>
+<path d="M0 490 C190 410 270 640 470 530 S750 410 900 500 V650 H0Z" fill="#fff" opacity=".035"/>
+<ellipse cx="455" cy="545" rx="255" ry="36" fill="#02050b" opacity=".55" filter="url(#shadow)"/>
+<g transform="translate(0 -4) rotate(8 450 320)"><path d="M450 100 C330 100 285 205 285 330 V385 C285 500 350 550 450 550 S615 500 615 385 V330 C615 205 570 100 450 100Z" fill="url(#metal)"/><path d="M450 112 V282" stroke="#192333" stroke-width="5"/><path d="M450 115 C355 115 310 208 310 328 V380 C310 485 365 530 450 530Z" fill="url(#screen)" opacity=".82"/><rect x="428" y="184" width="44" height="78" rx="18" fill="#dce8f4"/><rect x="439" y="198" width="22" height="42" rx="10" fill="#263346"/></g>
+<circle cx="760" cy="490" r="4" fill="#fff" opacity=".35"/><circle cx="155" cy="155" r="3" fill="#fff" opacity=".45"/>
+</svg>
