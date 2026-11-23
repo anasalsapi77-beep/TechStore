@@ -2,6 +2,8 @@
 
 A responsive, multi-page technology storefront demo built with HTML, CSS and vanilla JavaScript.
 
+**Live demo:** [Open TechStore](https://anasalsapi77-beep.github.io/TechStore/)
+
 ## Features
 
 - Home page, product catalogue and product detail pages
