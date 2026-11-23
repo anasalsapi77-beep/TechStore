@@ -1,27 +1,30 @@
-# TechStore — redesigned storefront
+# TechStore
 
-A responsive front-end demo storefront based on the original TechStore project.
+A responsive, multi-page technology storefront demo built with HTML, CSS and vanilla JavaScript.
+
+## Features
+
+- Home page, product catalogue and product detail pages
+- Product search, category filtering and sorting
+- Shopping cart and wishlist
+- Demo checkout and contact/newsletter forms
+- Responsive navigation and mobile layouts
+- Browser storage for demo cart, wishlist and form state
 
 ## Run locally
 
-Open `index.html` in a browser, or serve this directory with a local static server (recommended):
+Open `index.html` in a browser, or start a local static server from the repository root:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+Then open `http://localhost:8000`.
 
-## Included
+## Publish with GitHub Pages
 
-- Home page, product catalogue, product detail, cart, wishlist, checkout and contact pages.
-- Product search, category filters, sorting, quantity controls, wishlist actions, coupon codes and cart totals.
-- Local SVG product illustrations, so product art does not depend on the missing image folder from the original upload.
-- Responsive navigation, mobile layout, reveal effects, status toasts and accessible form labels.
-- Local browser storage for the cart, wishlist, demo orders, contact messages and newsletter signups.
+A GitHub Actions workflow is included at `.github/workflows/pages.yml`. In the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The workflow then publishes the repository root when changes are pushed to `main`.
 
-## Demo limitations
+## Important demo limitations
 
-This is a browser-only storefront. It does **not** include a server, live inventory, real order fulfilment, an email delivery service, authentication or a payment gateway. Checkout creates a demo order in the current browser only and does not charge a customer. Contact and newsletter forms save data locally and do not send messages. Connect a secure backend, real catalogue/inventory API and payment provider before using it as a live commercial store.
-
-Prices are illustrative USD values inherited/created for this demo. Update the product catalogue in `assets/js/products.js`.
+TechStore is a front-end demonstration. It has no backend, authentication, live stock, order fulfilment, email delivery or payment gateway. Checkout creates a local demo order in the current browser and does not charge anyone. Prices are illustrative USD values.
